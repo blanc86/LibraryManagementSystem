@@ -1,8 +1,8 @@
 📚 Library Management System
 A comprehensive Java-based library management system demonstrating Object-Oriented Programming principles, SOLID design patterns, and clean architecture.
+
 🎯 Project Overview
 This Library Management System is designed for educational purposes to showcase advanced Java programming concepts including:
-
 Object-Oriented Programming (Encapsulation, Inheritance, Polymorphism, Abstraction)
 SOLID Principles implementation
 Design Patterns (Strategy, Observer)
@@ -10,8 +10,7 @@ Java Collections Framework usage
 Clean Code practices
 
 ✨ Features
-Core Functionality
-
+Core Functionality:
 📖 Book Management: Add, remove, update, and search books
 👥 Patron Management: Register and manage library members
 🔄 Lending Operations: Check out and return books with validation
@@ -19,8 +18,7 @@ Core Functionality
 🔍 Advanced Search: Multiple search strategies (Title, Author, ISBN)
 📝 Event Logging: Automatic logging of all library operations
 
-System Capabilities
-
+System Capabilities:
 ✅ Input validation and error handling
 ✅ Borrowing limits and constraints
 ✅ Interactive console interface
@@ -49,12 +47,10 @@ Benefit: Decoupled event handling, easy to add new listeners
 
 🚀 Getting Started
 Prerequisites
-
 Java Development Kit (JDK) 8+
 IDE (IntelliJ IDEA, Eclipse, VS Code) or Command Line
 
 Quick Start
-
 Clone or Download the project
 Navigate to the project directory
 Compile the Java files:
@@ -64,22 +60,28 @@ Run the application:
 bashjava app.LibraryApplication
 
 
-IDE Setup
-IntelliJ IDEA
-
+IDE Setup:-
+IntelliJ IDEA:
 Open IntelliJ → New → Project from Existing Sources
 Select the project folder
 Choose "Create project from existing sources"
 Right-click LibraryApplication.java → Run
 
-Eclipse
-
+Eclipse:
 File → New → Java Project
 Uncheck "Use default location" and browse to project folder
 Right-click LibraryApplication.java → Run As → Java Application
 
-VS Code
-
+VS Code:
 Open project folder in VS Code
+Install "Extension Pack for Java"
+Open LibraryApplication.java and click Run
+
+
+Common Workflows:
+Search for a book: Choose option 2 → Select search type → Enter query
+Checkout a book: Choose option 4 → Enter patron ID → Enter book ISBN
+Return a book: Choose option 5 → Enter patron ID → Enter book ISBN
+View reports: Choose option 6 for inventory summary
 Install "Extension Pack for Java"
 Open LibraryApplication.java and click Run
